@@ -1,12 +1,15 @@
 import React from 'react';
 
-import './home.css';
+import Navbar from '../Navbar'; 
+import Annoucement from '../Announcement';
+
 
 
 function Home() {
     return (
         <div>
-            homepage
+            <Annoucement />
+            <Navbar />
         </div>
     )
 }
