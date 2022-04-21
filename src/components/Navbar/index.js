@@ -3,7 +3,6 @@ import { Icon } from 'semantic-ui-react';
 import styled from 'styled-components';
 
 
-
 const Container = styled.div`
     height: 60px;
    
@@ -77,6 +76,7 @@ function Navbar() {
                     <Icon 
                         name="search" 
                         color='grey'
+
                     />
                 </SearchContainer>
               </Left>
