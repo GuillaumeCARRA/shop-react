@@ -4,7 +4,7 @@ import Navbar from '../Navbar';
 import Annoucement from '../Announcement';
 import Slider from '../Slider';
 import Categories from '../Categories';
-
+import Products from '../Products';
 
 
 function Home() {
@@ -14,6 +14,7 @@ function Home() {
             <Navbar />
             <Slider />
             <Categories />
+            <Products />
         </div>
     )
 }
