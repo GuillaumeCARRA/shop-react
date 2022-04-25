@@ -5,6 +5,7 @@ import ProductList from './components/ProductList';
 import Product from './components/Product';
 import Register from './components/Register';
 import Login from './components/Login';
+import Cart from './components/Cart';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <ProductList /> */}
       {/* <Product /> */}
       {/* <Register /> */}
-      <Login />
+      {/* <Login /> */}
+      <Cart />
     </div>
   );
 }
